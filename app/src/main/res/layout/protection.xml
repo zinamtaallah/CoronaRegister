@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9E4B7"
+    android:scrollbarStyle="outsideInset"
+    android:textAlignment="gravity"
+    android:visibility="visible">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="273dp"
+                android:layout_height="94dp"
+                android:layout_weight="1"
+                android:text="Pour se proteger et proteger les autres"
+                android:textAlignment="center"
+                android:textColor="#E91E63"
+                android:textSize="24sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="73dp"
+                android:layout_height="93dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/question" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_weight="1"
+            android:background="#F9E4B7"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="105dp"
+                android:layout_weight="1"
+                android:checked="true"
+                android:clickable="true"
+                android:duplicateParentState="true"
+                android:fontFamily="sans-serif-condensed-light"
+                android:linksClickable="true"
+                android:longClickable="true"
+                android:text="se laver trés réguliérement les mains"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_weight="1"
+            android:background="#F9E4B7"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:clickable="true"
+                android:cursorVisible="false"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="Laissez une distance d’au moins un mètre entre vous et les autres"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_weight="1"
+            android:background="#F9E4B7"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkBox5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:clickable="true"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="Évitez de vous toucher les yeux, le nez ou la bouche"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_weight="1"
+            android:background="#F9E4B7"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkBox6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:clickable="true"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="Évitez les lieux très fréquentés ou les espaces intérieurs"
+                android:textAlignment="center"
+                android:textColorHighlight="#4CAF50"
+                android:textColorLink="#4CAF50"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_weight="1"
+            android:background="#F9E4B7"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/checkBox8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:clickable="true"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="Considérez le port du masque comme normal lorsque vous êtes avec d'autres personnes"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="448dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/stopcorona" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#FA8072"
+                android:text="Page d'acceuil"
+                android:textSize="24sp"
+                app:backgroundTint="#FA8072" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
