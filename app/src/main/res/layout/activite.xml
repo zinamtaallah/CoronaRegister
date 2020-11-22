@@ -51,7 +51,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/stayhome"
-                android:contentDescription="@string/todo"
+                android:contentDescription="@string/todo1"
                 tools:ignore="NestedWeights" />
 
             <TextView
@@ -82,7 +82,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/maske"
-                android:contentDescription="@string/todo"
+                android:contentDescription="@string/todo2"
                 tools:ignore="NestedWeights" />
 
             <TextView
@@ -112,7 +112,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/malade"
-                android:contentDescription="@string/todo"
+                android:contentDescription="@string/todo3"
                 tools:ignore="NestedWeights" />
 
             <TextView
@@ -142,7 +142,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/medicament1"
-                android:contentDescription="@string/todo"
+                android:contentDescription="@string/todo4"
                 tools:ignore="NestedWeights" />
 
             <TextView
@@ -172,7 +172,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/nettoyage"
-                android:contentDescription="@string/todo"
+                android:contentDescription="@string/todo5"
                 tools:ignore="NestedWeights" />
 
             <TextView
