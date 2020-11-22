@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F9E4B7"
@@ -24,12 +25,13 @@
                 android:layout_width="273dp"
                 android:layout_height="94dp"
                 android:layout_weight="1"
-                android:text="Pour se proteger et proteger les autres"
+                android:text="@string/pour_se_proteger_et_proteger_les_autres"
                 android:textAlignment="center"
                 android:textColor="#E91E63"
                 android:textSize="24sp"
                 android:textStyle="bold|italic"
-                android:typeface="serif" />
+                android:typeface="serif"
+                tools:ignore="NestedWeights" />
 
             <ImageView
                 android:id="@+id/imageView9"
@@ -37,7 +39,8 @@
                 android:layout_height="93dp"
                 android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/question" />
+                app:srcCompat="@drawable/question"
+                android:contentDescription="@string/todo1" />
         </LinearLayout>
 
         <LinearLayout
@@ -50,7 +53,7 @@
 
             <CheckBox
                 android:id="@+id/checkBox"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="105dp"
                 android:layout_weight="1"
                 android:checked="true"
@@ -59,11 +62,13 @@
                 android:fontFamily="sans-serif-condensed-light"
                 android:linksClickable="true"
                 android:longClickable="true"
-                android:text="se laver trés réguliérement les mains"
+                android:text="@string/se_laver_tr_s_r_guli_rement_les_mains"
                 android:textAlignment="center"
                 android:textColor="#000000"
                 android:textSize="24sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                tools:ignore="NestedWeights"
+                android:focusable="true" />
 
         </LinearLayout>
 
@@ -77,18 +82,20 @@
 
             <CheckBox
                 android:id="@+id/checkBox2"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:checked="true"
                 android:clickable="true"
                 android:cursorVisible="false"
+                android:focusable="true"
                 android:fontFamily="sans-serif-condensed-light"
-                android:text="Laissez une distance d’au moins un mètre entre vous et les autres"
+                android:text="@string/laissez_une_distance_d_au_moins_un_m_tre_entre_vous_et_les_autres"
                 android:textAlignment="center"
                 android:textColor="#000000"
                 android:textSize="24sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                tools:ignore="NestedWeights,TextViewEdits" />
 
         </LinearLayout>
 
@@ -102,17 +109,19 @@
 
             <CheckBox
                 android:id="@+id/checkBox5"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:checked="true"
                 android:clickable="true"
                 android:fontFamily="sans-serif-condensed-light"
-                android:text="Évitez de vous toucher les yeux, le nez ou la bouche"
+                android:text="@string/vitez_de_vous_toucher_les_yeux_le_nez_ou_la_bouche"
                 android:textAlignment="center"
                 android:textColor="#000000"
                 android:textSize="24sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                tools:ignore="NestedWeights"
+                android:focusable="true" />
         </LinearLayout>
 
         <LinearLayout
@@ -125,18 +134,20 @@
 
             <CheckBox
                 android:id="@+id/checkBox6"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:checked="true"
                 android:clickable="true"
+                android:focusable="true"
                 android:fontFamily="sans-serif-condensed-light"
-                android:text="Évitez les lieux très fréquentés ou les espaces intérieurs"
+                android:text="@string/vitez_les_lieux_tr_s_fr_quent_s_ou_les_espaces_int_rieurs"
                 android:textAlignment="center"
                 android:textColorHighlight="#4CAF50"
                 android:textColorLink="#4CAF50"
                 android:textSize="24sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                tools:ignore="NestedWeights" />
 
         </LinearLayout>
 
@@ -150,7 +161,7 @@
 
             <CheckBox
                 android:id="@+id/checkBox8"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:checked="true"
@@ -174,7 +185,9 @@
                 android:layout_width="448dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/stopcorona" />
+                android:contentDescription="TODO"
+                app:srcCompat="@drawable/stopcorona"
+                tools:ignore="NestedWeights" />
         </LinearLayout>
 
         <LinearLayout
