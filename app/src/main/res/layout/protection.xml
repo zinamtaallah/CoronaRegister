@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -59,16 +59,16 @@
                 android:checked="true"
                 android:clickable="true"
                 android:duplicateParentState="true"
+                android:focusable="true"
                 android:fontFamily="sans-serif-condensed-light"
                 android:linksClickable="true"
                 android:longClickable="true"
-                android:text="@string/se_laver_tr_s_r_guli_rement_les_mains"
+                android:text="@string/se laver trés réguliérement les mains"
                 android:textAlignment="center"
                 android:textColor="#000000"
                 android:textSize="24sp"
                 android:textStyle="bold"
-                tools:ignore="NestedWeights"
-                android:focusable="true" />
+                tools:ignore="NestedWeights" />
 
         </LinearLayout>
 
@@ -167,10 +167,12 @@
                 android:checked="true"
                 android:clickable="true"
                 android:fontFamily="sans-serif-condensed-light"
-                android:text="Considérez le port du masque comme normal lorsque vous êtes avec d'autres personnes"
+                android:text="@string/consid_rez_le_port_du_masque_comme_normal_lorsque_vous_tes_avec_d_autres_personnes"
                 android:textAlignment="center"
                 android:textSize="24sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:focusable="true"
+                tools:ignore="NestedWeights" />
 
         </LinearLayout>
 
@@ -182,10 +184,10 @@
 
             <ImageView
                 android:id="@+id/imageView8"
-                android:layout_width="448dp"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:contentDescription="TODO"
+                android:contentDescription="@string/todo"
                 app:srcCompat="@drawable/stopcorona"
                 tools:ignore="NestedWeights" />
         </LinearLayout>
@@ -198,13 +200,14 @@
 
             <Button
                 android:id="@+id/button3"
-                android:layout_width="100dp"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="#FA8072"
                 android:text="Page d'acceuil"
                 android:textSize="24sp"
-                app:backgroundTint="#FA8072" />
+                app:backgroundTint="#FA8072"
+                tools:ignore="HardcodedText,NestedWeights" />
         </LinearLayout>
     </LinearLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>
