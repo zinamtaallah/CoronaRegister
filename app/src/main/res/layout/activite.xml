@@ -198,10 +198,10 @@
 
             <Button
                 android:id="@+id/button2"
-                android:layout_width="521dp"
+                android:layout_width="411dp"
                 android:layout_height="wrap_content"
                 android:background="#FA8072"
-                android:text="Page d'acceuil "
+                android:text="@string/page_d_acceuil"
                 android:textSize="24sp"
                 app:backgroundTint="#FA8072"
                 tools:ignore="NestedWeights" />
