@@ -27,4 +27,8 @@
     <string name="considérez le port du masque comme normal lorsque vous tes avec d'autres personnes" tools:ignore="ExtraTranslation">Considérez le port du masque comme normal lorsque vous êtes avec d\'autres personnes</string>
     <string name="todo" translatable="false">TODO</string>
     <string name="page_d_acceuil">Page d\'acceuil</string>
+    <string name="symptom">Symptom</string>
+    <string name="calendrier">calendrier</string>
+    <string name="activite">Activite</string>
+    <string name="protection">protection</string>
 </resources>
